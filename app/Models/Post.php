@@ -21,4 +21,10 @@ class Post extends Model {
         
     }
 
+    public function href() {
+
+        return "blog/{$this->slug}";
+        
+    }
+
 }
